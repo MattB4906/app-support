@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer"><meta name="robots" content="noindex">
+<meta name="description" content="Join a Cleared for Takeoff: Rivals race"><title>Join a race — Cleared for Takeoff: Rivals</title>
+<script>
+// Page text, grouped for translation. A translation pass adds one block per language (it, es, fr, de, pt-BR, ja, ko,
+// zh-Hans) with the same keys; the page picks the visitor's language and falls back to English.
+// "Play online" and "Join with a code" must match the button names in the app.
+var STRINGS={
+ en:{title:'Join a race',code:'Room code',open:'Open in the app',openHint:'If the app doesn’t open, follow the steps below.',manual:'Join without the link',step1:'Open Cleared for Takeoff on your iPhone or iPad.',step2:'Choose Play online.',step3:'Choose Join with a code and enter the room code.',noApp:'Don’t have the app?',store:'Get it on the App Store',noCode:'This link has no valid room code. Ask your friend for the six-character code.'},
+ it:{title:'Unisciti a una gara',code:'Codice stanza',open:'Apri nell’app',openHint:'Se l’app non si apre, segui i passaggi qui sotto.',manual:'Entra senza il link',step1:'Apri Cleared for Takeoff sul tuo iPhone o iPad.',step2:'Scegli Gioca online.',step3:'Scegli Entra con un codice e inserisci il codice stanza.',noApp:'Non hai l’app?',store:'Scaricala dall’App Store',noCode:'Questo link non contiene un codice stanza valido. Chiedi al tuo amico il codice di sei caratteri.'},
+ es:{title:'Únete a una carrera',code:'Código de sala',open:'Abrir en la app',openHint:'Si la app no se abre, sigue los pasos de abajo.',manual:'Unirse sin el enlace',step1:'Abre Cleared for Takeoff en tu iPhone o iPad.',step2:'Elige Jugar en línea.',step3:'Elige Unirse con un código e introduce el código de sala.',noApp:'¿No tienes la app?',store:'Consíguela en el App Store',noCode:'Este enlace no tiene un código de sala válido. Pide a tu amigo el código de seis caracteres.'},
+ fr:{title:'Rejoindre une course',code:'Code du salon',open:'Ouvrir dans l’app',openHint:'Si l’app ne s’ouvre pas, suivez les étapes ci-dessous.',manual:'Rejoindre sans le lien',step1:'Ouvrez Cleared for Takeoff sur votre iPhone ou iPad.',step2:'Touchez Jouer en ligne.',step3:'Touchez Rejoindre avec un code et saisissez le code du salon.',noApp:'Vous n’avez pas l’app ?',store:'Téléchargez-la sur l’App Store',noCode:'Ce lien ne contient pas de code de salon valide. Demandez à votre ami le code à six caractères.'},
+ de:{title:'Einem Rennen beitreten',code:'Raumcode',open:'In der App öffnen',openHint:'Wenn sich die App nicht öffnet, folge den Schritten unten.',manual:'Ohne den Link beitreten',step1:'Öffne Cleared for Takeoff auf deinem iPhone oder iPad.',step2:'Wähle „Online spielen“.',step3:'Wähle „Mit Code beitreten“ und gib den Raumcode ein.',noApp:'Du hast die App noch nicht?',store:'Hol sie dir im App Store',noCode:'Dieser Link enthält keinen gültigen Raumcode. Frag deinen Freund nach dem sechsstelligen Code.'},
+ 'pt-BR':{title:'Entre em uma corrida',code:'Código da sala',open:'Abrir no app',openHint:'Se o app não abrir, siga os passos abaixo.',manual:'Entrar sem o link',step1:'Abra o Cleared for Takeoff no seu iPhone ou iPad.',step2:'Escolha Jogar online.',step3:'Escolha Entrar com código e digite o código da sala.',noApp:'Ainda não tem o app?',store:'Baixe na App Store',noCode:'Este link não tem um código de sala válido. Peça ao seu amigo o código de seis caracteres.'},
+ ja:{title:'レースに参加',code:'ルームコード',open:'アプリで開く',openHint:'アプリが開かない場合は、下の手順に従ってください。',manual:'リンクなしで参加する',step1:'iPhoneまたはiPadでCleared for Takeoffを開きます。',step2:'「オンラインプレイ」を選びます。',step3:'「コードで参加」を選び、ルームコードを入力します。',noApp:'アプリをお持ちでないですか？',store:'App Storeで入手',noCode:'このリンクには有効なルームコードが含まれていません。友達に6文字のコードを聞いてください。'},
+ ko:{title:'레이스 참가',code:'방 코드',open:'앱에서 열기',openHint:'앱이 열리지 않으면 아래 방법을 따라 주세요.',manual:'링크 없이 참가하기',step1:'iPhone 또는 iPad에서 Cleared for Takeoff를 엽니다.',step2:'온라인 플레이를 선택합니다.',step3:'코드로 참가를 선택하고 방 코드를 입력합니다.',noApp:'아직 앱이 없나요?',store:'App Store에서 받기',noCode:'이 링크에는 올바른 방 코드가 없어요. 친구에게 6자리 코드를 물어보세요.'},
+ 'zh-Hans':{title:'加入比赛',code:'房间代码',open:'在应用中打开',openHint:'如果应用没有打开，请按下面的步骤操作。',manual:'不用链接加入',step1:'在 iPhone 或 iPad 上打开 Cleared for Takeoff。',step2:'选择“在线游玩”。',step3:'选择“用代码加入”，然后输入房间代码。',noApp:'还没有应用？',store:'在 App Store 获取',noCode:'此链接没有有效的房间代码。请向好友询问六位代码。'}
+};
+</script>
+<style>*{box-sizing:border-box}body{margin:0;background:#f5f6f4;color:#102b43;font:16px/1.7 system-ui,-apple-system,sans-serif}main{max-width:760px;margin:auto;padding:40px 24px}h1{font-size:32px;line-height:1.2;margin:24px 0}h2{font-size:21px;margin:28px 0 8px}p{margin:12px 0;overflow-wrap:anywhere}a{color:#226b80;text-decoration:underline}ol{margin:12px 0;padding-left:24px}footer{margin-top:40px;padding-top:20px;border-top:1px solid #d9e1e6}
+.code{margin:16px 0 8px}.code span{display:block;font-size:14px;color:#64788c}.code strong{display:inline-block;margin-top:4px;padding:14px 22px;border-radius:13px;background:#071e37;color:#fff6e6;font-size:34px;letter-spacing:.1em;font-variant-numeric:tabular-nums}
+.open{display:inline-flex;align-items:center;justify-content:center;min-height:50px;margin-top:12px;padding:12px 22px;border-radius:13px;background:#071e37;color:#fff9ec;font-weight:600;text-decoration:none}.hint{font-size:14px;color:#64788c}[hidden]{display:none!important}</style></head>
+<body><main><a href="./support.html">Cleared for Takeoff: Rivals</a><h1 data-t="title">Join a race</h1>
+<section id="with-code" hidden><p class="code"><span data-t="code">Room code</span><strong id="code"></strong></p><p><a class="open" id="open" href="#" data-t="open">Open in the app</a></p><p class="hint" data-t="openHint">If the app doesn’t open, follow the steps below.</p></section>
+<p id="no-code" data-t="noCode">This link has no valid room code. Ask your friend for the six-character code.</p>
+<section><h2 data-t="manual">Join without the link</h2><ol><li data-t="step1">Open Cleared for Takeoff on your iPhone or iPad.</li><li data-t="step2">Choose Play online.</li><li data-t="step3">Choose Join with a code and enter the room code.</li></ol></section>
+<section><h2 data-t="noApp">Don’t have the app?</h2><p><a href="https://apps.apple.com/app/id6826722649" data-t="store">Get it on the App Store</a></p></section>
+<footer><a href="./support.html">Help & support</a> · <a href="./privacy.html">Privacy policy</a></footer></main>
+<script>
+// Reads the room code from the address fragment (#ABC123), which browsers never send to the server. Only a valid
+// six-character code (A–Z, 2–9, as in the app) is shown; anything else leaves the page without a code. No redirect:
+// the app opens only when the visitor taps the button.
+(function(){
+ // Same rule as the app's resolveLanguage (mobile/i18n/index.ts), limited to languages with a block above: the first
+ // match wins; Chinese only as Simplified (zh, zh-Hans, zh-CN/SG/MY); Traditional Chinese falls through to the next language.
+ var langs=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']),lang=null;
+ for(var i=0;i<langs.length&&!lang;i++){
+  var parts=String(langs[i]||'').toLowerCase().replace(/_/g,'-').split('-'),primary=parts[0],rest=parts.slice(1),pick=null;
+  if(primary==='en')pick='en';else if(primary==='pt')pick='pt-BR';
+  else if(primary==='zh'){if(!rest.length||rest.some(function(p){return ['hans','cn','sg','my'].indexOf(p)>=0;}))pick='zh-Hans';}
+  else for(var key in STRINGS)if(key.toLowerCase()===primary)pick=key;
+  if(pick&&STRINGS[pick])lang=pick;
+ }
+ lang=lang||'en';
+ var s=STRINGS[lang],nodes=document.querySelectorAll('[data-t]');document.documentElement.lang=lang;
+ for(var j=0;j<nodes.length;j++){var k=nodes[j].getAttribute('data-t');if(s[k])nodes[j].textContent=s[k];}
+ if(s.title)document.title=s.title+' — Cleared for Takeoff: Rivals';
+ var code=String(location.hash||'').slice(1).toUpperCase();
+ if(/^[A-Z2-9]{6}$/.test(code)){
+  document.getElementById('code').textContent=code;document.getElementById('open').setAttribute('href','clearedfortakeoff://join/'+code);
+  document.getElementById('with-code').hidden=false;document.getElementById('no-code').hidden=true;
+ }
+})();
+</script></body></html>
